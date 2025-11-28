@@ -12,6 +12,7 @@ body {
     width: 100%;
     margin: auto;
     background-color: rgba(255, 144, 14, 0.1);
+    padding:  auto 150px;
  }
 #nav1{
     font-weight: bold;
