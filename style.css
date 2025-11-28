@@ -1,3 +1,28 @@
-h1{
-    color: greenyellow;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    font-family: "Work Sans", sans-serif;
+}
+*{ max-width: 100vw;
+    margin: 0;
+    padding: 0;
+ }
+
+ .hero-container{
+    width: 75%;
+    margin: auto;
+ }
+#nav1{
+    font-weight: bold;
+}
+.ul1{
+    display:flex ;
+    gap: 45px;
+}
+li{
+    list-style-type: none;
+}
+.hero-div1{
+    display: flex;
+    justify-content: space-between;
 }
