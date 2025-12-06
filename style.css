@@ -103,3 +103,19 @@ li{
 .btn1{
      margin-bottom: 15px;
 }
+
+.section2{
+    display: flex;
+    max-width: 75%;
+    margin: 0 auto;
+}
+.section2-h3{
+    font-size: 2.8rem;  
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+.font{
+    font-size: 20px;
+    font-weight: 600;
+}
