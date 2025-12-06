@@ -3,16 +3,38 @@
 body {
     font-family: "Work Sans", sans-serif;
 }
-*{ max-width: 100vw;
+*{ max-width:100vw;
     margin: 0;
     padding: 0;
  }
+/* shared css codes */
+.dark1{
+    color: #131313;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.button-primary{
+    color: white;
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 10px;
+    border-style: none;
 
+}
+.margin-bottom{
+    margin-bottom: 15px;
+}
+/* shared css codes */
  .hero-container{
     width: 100%;
     margin: auto;
     background-color: rgba(255, 144, 14, 0.1);
-    padding:  auto 150px;
+   
  }
 #nav1{
     font-weight: bold;
@@ -27,4 +49,20 @@ li{
 .hero-div1{
     display: flex;
     justify-content: space-between;
+     max-width: 75%;
+     margin: 0 auto;
+     margin-bottom: 70px;
+}
+.hero-div2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 65%;
+}
+.img1{
+    max-width: 75%;
+    max-height: 44rem;
+    display: block;
+    margin: 0 auto;
 }
