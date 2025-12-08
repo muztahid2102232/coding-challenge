@@ -122,5 +122,25 @@ li{
 .div-border{
     border:none;
     border-radius: 8px;
-    box-shadow: #FFFFFF 100%;
+    box-shadow:2px 2px 20px #727272 ;
+    padding: 20px;
+    margin-right: 20px;
+}
+.experience{
+    color: white;
+    background-color: #FF900E;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 90%;
+    right: 90%;
+    width: 242px;
+    height: 700px;
+}
+.facts-h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts-p{
+    font-size: 16px;
 }
