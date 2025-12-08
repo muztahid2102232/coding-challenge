@@ -108,6 +108,10 @@ li{
     display: flex;
     max-width: 75%;
     margin: 0 auto;
+    margin-bottom: 120px;
+}
+.section2-div2{
+    position: relative;
 }
 .section2-h3{
     font-size: 2.8rem;  
@@ -127,16 +131,22 @@ li{
     margin-right: 20px;
 }
 .experience{
-    color: white;
+    color:white;
     background-color: #FF900E;
     position: absolute;
     bottom: 0;
     right: 0;
     top: 90%;
-    right: 90%;
-    width: 242px;
-    height: 700px;
+    right: 80%;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    padding-left: 30px;
+    border-radius: 8px;
+    
+    
 }
+
 .facts-h1{
     font-size: 45px;
     font-weight: 700;
